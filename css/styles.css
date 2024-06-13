@@ -511,7 +511,7 @@ textarea {
 :placeholder-shown {
         color: #fff;
 }
-.subscribe-foot {
+.footer-btn-sub {
     display: flex;
     align-items: center;
         justify-content: center;
