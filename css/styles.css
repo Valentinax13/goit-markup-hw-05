@@ -477,8 +477,9 @@ textarea {
     margin-left: 80px;
 
 }
-.form-container-footer {
+.footer-form {
     display: flex;
+    gap: 24px;
 }
 .ffi {
     border: 1px solid #fff;
@@ -486,30 +487,36 @@ textarea {
         width: 264px;
         height: 40px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background-color: #2E2F42;
-}
-:placeholder-shown {
-    font-weight: 400;
+        background-color: transparent;
         font-size: 12px;
         line-height: 2;
         letter-spacing: 0.04em;
-        color: #fff;
         padding-left: 16px;
+        color: #ffffff;
+}
+:placeholder-shown {
+        color: #fff;
 }
 .subscribe-foot {
+    display: flex;
     align-items: center;
         justify-content: center;
+        font-family: "Roboto", sans-serif;
         flex-direction: row;
         gap: 16px;
+        border: none;
         border-radius: 4px;
             padding: 8px 24px;
-            width: 165px;
-            height: 40px;
-            background: #4d5ae5;
+            background-color: #4d5ae5;
             font-weight: 500;
                 font-size: 16px;
                 line-height: 1.5;
                 letter-spacing: 0.04em;
-                text-align: center;
-                color: #fff;
+                color: #ffffff;
+                cursor: pointer;
+                min-width: 165px;
+                height: 40px;
+}
+.send {
+    margin-left: 16px;
 }
